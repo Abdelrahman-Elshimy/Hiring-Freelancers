@@ -1,0 +1,28 @@
+﻿@font-face {
+    font-family: myFont;
+    src: url('font/GE_SS_Two_Bold.otf')
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url('font/DroidKufi-Regular.ttf')
+}
+
+body {
+}
+
+.navbar-default {
+    background-color: #D32F2F;
+    border-color: #e7e7e7;
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+    .navbar-default .navbar-nav > li > a {
+        color: #FFFFFF;
+        font-family: myFont;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #ffffff;
+    }
